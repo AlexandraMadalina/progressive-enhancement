@@ -1,0 +1,16 @@
+body {
+	font-family:serif;
+	word-spacing:5px;
+	font-size:18px;
+}
+a{
+    text-decoration:none;
+    color:#0000FF;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+a:visited{
+    color: #800080;
+}
