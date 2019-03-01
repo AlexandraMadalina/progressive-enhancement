@@ -23,14 +23,33 @@ a:hover{
 a:visited{
     color: #800080;
 }
+q{
+	display: block;
+	max-width:50%;
+	margin:80px auto;
+	quotes:"\0022" "\0022";
 
+	padding:30px;
+	background-color:#d9d9d9;
+	border-left:3px dashed #8c8c8c;
+}
+q:before{
+    content: open-quote;
+   font-size:160%;
+
+}
+q:after{
+    content: close-quote;
+   font-size:160%;
+
+}
 blockquote{
 
     max-width:50%;
     margin:80px auto;
     padding:30px;
     background-color:#d9d9d9;
-    border-left:3px solid #8c8c8c;
+    border-left:3px dashed #8c8c8c;
     quotes:"\0022" "\0022" ;
 
 }
@@ -48,4 +67,56 @@ blockquote:after{
 }
 blockquote p {
   display: inline;
+}
+.villagers{
+	border-left:3px dashed #1687ED;
+}
+.farmer{
+	border-left:3px dashed #56A1B0;
+}
+header p{
+	background-color: #ffdf00;
+	background-clip: content-box;
+}
+.good, .bad{
+	text-transform: capitalize;
+}
+.bad{
+	color:red;
+}
+.good{
+	color:green;
+}
+tr:nth-of-type(odd){
+	background-color: grey;
+}
+tr:nth-of-type(even){
+	background-color: white;
+}
+table{
+	border-collapse: collapse;
+}
+li:first-child{
+	background-image: url(like.png);
+  padding-right: 100%;
+	background-repeat: no-repeat;
+	text-decoration:none;
+}
+li:nth-child(2){
+	background-image: url(dislike.png);
+  padding-right: 100%;
+	background-repeat: no-repeat;
+	text-decoration:none;
+}
+li:nth-child(3){
+	background-image: url(cat.png);
+	padding-right: 100%;
+	background-repeat: no-repeat;
+	text-decoration:none;
+}
+ul{
+	list-style-type: none;
+}
+p:first-of-type{
+	font-style:italic;
 }
