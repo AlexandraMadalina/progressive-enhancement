@@ -17,7 +17,7 @@ a:visited{
     color: #800080;
 }
 
-q {
+blockquote{
 
     max-width:50%;
     margin:auto;
@@ -29,16 +29,16 @@ q {
 }
 
 
-q:before{
+blockquote:before{
     content: open-quote;
    font-size:160%;
 
 }
-q:after{
+blockquote:after{
     content: close-quote;
    font-size:160%;
 
 }
-q p {
+blockquote p {
   display: inline;
 }
