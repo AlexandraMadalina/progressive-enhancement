@@ -2,6 +2,8 @@ body {
 	font-family:serif;
 	word-spacing:5px;
 	font-size:18px;
+	max-width:90%;
+	margin:0 auto;
 }
 a{
     text-decoration:none;
@@ -13,4 +15,30 @@ a:hover{
 
 a:visited{
     color: #800080;
+}
+
+q {
+
+    max-width:50%;
+    margin:auto;
+    padding:30px;
+    background-color:#d9d9d9;
+    border-left:3px solid #8c8c8c;
+    quotes:"\0022" "\0022" ;
+
+}
+
+
+q:before{
+    content: open-quote;
+   font-size:160%;
+
+}
+q:after{
+    content: close-quote;
+   font-size:160%;
+
+}
+q p {
+  display: inline;
 }
