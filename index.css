@@ -7,10 +7,11 @@ body {
 	background:-webkit-radial-gradient(top left, circle, #C1D4E8, #77ABDB);
 	background:-moz-radial-gradient(top left, circle, #C1D4E8, #77ABDB);
 	background:-ms radial-gradient(top left, circle, #C1D4E8, #77ABDB);
-	background-image: url(working-farm.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom right;
+		background-image: url(Images/sky.jpg);
+		background-repeat: no-repeat;
+	background-size:cover;
+	background-position:bottm right;
+	;
 }
 a{
     text-decoration:none;
@@ -97,32 +98,26 @@ table{
 	border-collapse: collapse;
 }
 li:first-child{
-	background-image: url(like.png);
-  padding-right: 100%;
-	background-repeat: no-repeat;
-	text-decoration:none;
+	list-style-image: url(Images/like.png);
 }
 li:nth-child(2){
-	background-image: url(dislike.png);
-  padding-right: 100%;
-	background-repeat: no-repeat;
-	text-decoration:none;
+	list-style-image:url(Images/dislike.png);
 }
 li:nth-child(3){
-	background-image: url(cat.png);
-	padding-right: 100%;
-	background-repeat: no-repeat;
-	text-decoration:none;
+	list-style-image:url(Images/cat.png);
+
 }
-ul{
-	list-style-type: none;
+ul {
+  list-style-type: none;
+list-style-position:inside;
 }
+
 p:first-of-type{
 	font-style:italic;
 }
 img{
 	max-width: 50%;
 	float: left;
-	margin: 10px ;
+	margin: 20px ;
 
 }
