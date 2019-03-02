@@ -237,7 +237,7 @@ Each html block has a "display" property which is either: `display: inline | inl
 
 If you add a `float: left | right;` it will take whatever you applied it to outside of the normal rendering flow and put it as far left or right as possible, but respecting the margin.
 
-![Float explained](float.png)
+![Float explained](Images/float.png)
 
 More info on float: https://developer.mozilla.org/en-US/docs/Web/CSS/float
 
