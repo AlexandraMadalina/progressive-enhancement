@@ -1,5 +1,5 @@
 body {
-	font-family:serif;
+	font-family: 'Open Sans', sans-serif;
 	word-spacing:5px;
 	font-size:18px;
 	max-width:90%;
@@ -119,4 +119,10 @@ ul{
 }
 p:first-of-type{
 	font-style:italic;
+}
+img{
+	max-width: 50%;
+	float: left;
+	margin: 10px ;
+
 }
