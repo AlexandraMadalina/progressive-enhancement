@@ -154,7 +154,7 @@ Back to your html version of the Chinese farmer :
  
 All tags are rendered visually as a "block". This is called the [box model](https://www.w3schools.com/css/css_boxmodel.asp).  Each block includes margin, padding border properties.
 
-![The bloc](images/css-block.png)  
+![The bloc](Images/css-block.png)  
 
 You can control the dimensions and spacing of this block:   
 
@@ -220,9 +220,9 @@ Back to your html version of the Chinese farmer :
 - Put the words "Bad" in red
 - Put the words "Good" in green
 - Style the table so that the background color of each row is alternating grey or white
-- At the first item in the list (types of people), play with `background-image` and `padding-right` to make the image appear ![good](images/bien.png)  
-- At the second item of the list (types of people), play with `background-image` and `padding-right` to make the image appear ![wrong](images/mal.png)  
-- At the third item of the list (types of people), play with `background-image` and `padding-right` to make the image appear ![chat](images/chat.png)  
+- At the first item in the list (types of people), play with `background-image` and `padding-right` to make the image appear ![good](Images/like.png)  
+- At the second item of the list (types of people), play with `background-image` and `padding-right` to make the image appear ![wrong](Images/dislike.png)  
+- At the third item of the list (types of people), play with `background-image` and `padding-right` to make the image appear ![chat](Images/cat.png)  
 - Put the first paragraph in bold
 
 		
